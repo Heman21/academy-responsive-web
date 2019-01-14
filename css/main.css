@@ -38,7 +38,18 @@ ul {
   ul li {
     border: 1px solid #265;
     border-bottom-width: 0;
-    padding: 18px; }
+    padding: 18px 80px 18px 18px;
+    position: relative; }
+    ul li .votes {
+      font-size: 50px;
+      line-height: 50px;
+      display: block;
+      position: absolute;
+      top: 18px;
+      right: 20px; }
+    @media screen and (min-width: 960px) {
+      ul li {
+        top: 25px; } }
     ul li:last-child {
       border-bottom-width: 1px; }
     ul li:hover {
